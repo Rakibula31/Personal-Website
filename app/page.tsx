@@ -8,7 +8,7 @@ import {
   SiGit, SiGoogledocs, SiIntellijidea, 
   SiGooglecloud, SiJetbrains, SiFigma 
 } from 'react-icons/si';
-import { FaMicrosoft, FaCode } from 'react-icons/fa';
+import { FaMicrosoft, FaCode, FaJava } from 'react-icons/fa';
 
 export default function Home() {
   const [showProjects, setShowProjects] = useState(false);
@@ -37,7 +37,7 @@ export default function Home() {
   const skillIcons: { [key: string]: { icon: React.ReactNode, name: string } } = {
     "Python": { icon: <SiPython />, name: "Python" },
     "C": { icon: <SiC />, name: "C" },
-    "Java": { icon: <SiOracle />, name: "Java" },
+    "Java": { icon: <FaJava />, name: "Java" },
     "HTML5/CSS": { icon: <div style={{ display: 'flex', gap: '4px' }}><SiHtml5 /><SiCss3 /></div>, name: "HTML5/CSS" },
     "JavaScript": { icon: <SiJavascript />, name: "JavaScript" },
     "Excel": { icon: <FaMicrosoft />, name: "Excel" },
