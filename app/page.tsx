@@ -86,7 +86,7 @@ export default function Home() {
             <p className="location">📍 Queens, NYC | Georgia Institute of Technology</p>
             <p className="description">
               I&apos;m a Computer Engineering student pursuing my B.S. at Georgia Tech. 
-              My passion lies in <strong>system architecture</strong> and <strong>distributed systems</strong>.
+              My passion lies in backend development and working with databases and making sure the data is secure and efficient. I also have a specialization in <strong>system architecture</strong> and <strong>distributed systems</strong>.
             </p>
             <p className="description">
               I&apos;m fascinated by the intricate balance between performance, scalability, and reliability in 
